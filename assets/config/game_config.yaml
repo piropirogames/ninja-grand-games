@@ -1,0 +1,18 @@
+# ゲーム全体設定(スキーマ: docs/01-architecture.md §12)。
+game:
+  id: olympic
+  # ストア表示名(docs/gdd.md §9。2026-08-21 決定)。
+  # 「オリンピック」「Olympic」「五輪」はIOCの商標保護対象のため使用しない。
+  # 種目が陸上競技に収まらない(器械体操寄りのモンスターBOX、競歩ですらない
+  # ムーンウォーク忍歩)ため、Athletics より Grand Games のほうが中身に近い。
+  name: "NINJA GRAND GAMES"
+  version: "0.1.0" # 数値と解釈されないよう引用符必須
+
+debug:
+  enabled: true # リリースビルドでは強制無効化される
+
+# 有効化するプラグインID(未使用。プラグイン導入時に追加)
+plugins: []
+
+# Feature Flagのローカル既定値(未使用)
+features: {}
