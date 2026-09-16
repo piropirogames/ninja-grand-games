@@ -1,0 +1,21 @@
+{
+  "cellWidth": 140,
+  "cellHeight": 142,
+  "frameCount": 8,
+  "footInset": 2,
+  "spriteHeight": 128,
+  "anchor": "row",
+  "groundAnchorX": 69.43,
+  "directions": {
+    "s": 0,
+    "sw": 1,
+    "w": 2,
+    "nw": 3,
+    "n": 4,
+    "ne": 5,
+    "e": 6,
+    "se": 7
+  },
+  "note": "行=方向、列=フレーム。方位角は行番号×45度で、e が画面右向き。",
+  "pxPerMeter": 73.28648451601667
+}
